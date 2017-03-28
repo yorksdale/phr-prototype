@@ -1,0 +1,89 @@
+form {
+  display: block;
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #000000;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.form-label {
+  font-size:1.5rem;
+  font-weight: normal;
+}
+.form-label-bold {
+  font-size: 1.5rem;
+}
+
+.form-hint {
+  text-transform: none;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-top: 10px;
+  display: block;
+  color: #6f777b;
+  font-weight: normal;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+.form-date {
+  margin: 0;
+}
+
+.form-group-day {
+  float: left;
+  width: 50px;
+  margin-right: 40px;
+  margin-bottom: 0;
+  clear: none;
+}
+.form-date .form-group-month {
+    float: left;
+    width: 50px;
+    margin-right: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    clear: none;
+}
+.form-date .form-group-year {
+    width: 70px;
+    margin-top: 0;
+}
+.form-group-year {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+{
+  "layout": "content-sidebar-header",
+  "title": "Going home and recovery",
+  "nonEmergencyCallout": false,
+  "choicesOrigin": "conditions/hernia/pages/introduction.aspx",
+  "returnPath": "/conditions/hernia/surgery-guide",
+  "content": {
+    "main": [
+      {
+        "type": "markdown",
+        "value": "!file=main-content.md"
+      }
+    ]
+  }
+}

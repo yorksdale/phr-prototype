@@ -1,0 +1,14 @@
+{
+  "layout": "content-simple",
+  "guide": true,
+  "title": "Understanding medication",
+  "choicesOrigin": "conditions/Diabetes-type2/Pages/Treatment.aspx",
+  "content": {
+    "main": [
+      {
+        "type": "markdown",
+        "value": "!file=main-content.md"
+      }
+    ]
+  }
+}

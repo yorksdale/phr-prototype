@@ -1,0 +1,14 @@
+{
+  "layout": "content-simple",
+  "guide": true,
+  "title": "Going for regular check ups",
+  "choicesOrigin": "conditions/Diabetes-type2/Pages/Living-with.aspx",
+  "content": {
+    "main": [
+      {
+        "type": "markdown",
+        "value": "!file=main-content.md"
+      }
+    ]
+  }
+}

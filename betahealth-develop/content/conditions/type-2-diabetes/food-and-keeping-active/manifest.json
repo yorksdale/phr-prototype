@@ -1,0 +1,14 @@
+{
+  "layout": "content-simple",
+  "guide": true,
+  "title": "Food and keeping active",
+  "choicesOrigin": "conditions/Diabetes-type2/Pages/Introduction.aspx",
+  "content": {
+    "main": [
+      {
+        "type": "markdown",
+        "value": "!file=main-content.md"
+      }
+    ]
+  }
+}
