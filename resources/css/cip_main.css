@@ -282,6 +282,13 @@ hr {
     margin-right: auto;
     margin-left: auto;
 }
+.thumbnail img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
 details summary {
  display: inline-block;
     color: #005ea5;
@@ -1830,6 +1837,7 @@ pre code {
     width: 1170px;
   }
 }
+
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -2739,6 +2747,7 @@ label {
   margin-bottom: 5px;
   font-weight: bold;
 }
+
 input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -7081,13 +7090,18 @@ body {
 section {
   background-color: #ffffff;
 }
-.footer-sub {
+ul.footer-tabs {
+	margin: 0;
+	margin-left: 10px;
+
+}
+/*.footer-sub {
   background-color: #667076;
   width: 100%;
   height: 5px;
 }
 .footer {
-  background-color: #333333;
+  background-color: #fff;
   width: 100%;
   height: 50px;
 }
@@ -7099,7 +7113,7 @@ section {
 .footer a {
   color: #ffffff;
   text-decoration: underline;
-}
+}*/
 .ws-pad-100 {
   width: 100%;
   height: 50px;
