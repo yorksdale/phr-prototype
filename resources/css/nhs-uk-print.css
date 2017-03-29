@@ -19,7 +19,10 @@ table td, table th {border:1px solid black; padding:0.5em;}
 .info-nav, .personal-header,.header .search-panel, .header .main-nav, .header fieldset, .login-comment, .back-to-the-top{display:none;}
 /****/
 .heading a img, .heading img, .heading h1 {display:block; float:none; color:#f60;}
-.heading p.choices-logo {color:#f60; font-size:1.9em; padding:0; margin:0;}
+.heading p.choices-logo { color:#f60; font-size:1.9em; padding:0; margin:0;}
+
+
+
 
 /*FOOTER*/
 .footer, .personal-footer{display:none}

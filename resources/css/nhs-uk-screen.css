@@ -159,10 +159,14 @@ ul.translate .goog-te-gadget-simple {background:none; border:none; padding:0; ma
 /* Header - main block */
 .header {background:#fff; border:1px solid #e2e2e2; clear:both; margin-bottom:20px; padding:15px; position:relative;}
 .heading {float:left; margin-bottom:25px;}
-.header h1, p.choices-logo {color:#f60; display:inline; float:left; font-size:1.4em; font-weight:bold; padding:0; width:41em;}
-.header h1, p.choices-logo a {display:block;}
-.header h1 img, p.choices-logo img {display:inline; float:left; margin:0 15px 0 0;}
-.header h1 span, p.choices-logo span {display:block; float:left; margin-top:15px;}
+.header h1, p.choices-logo {color:#f60; display:inline;  font-size:1.4em; font-weight:bold; padding:0; width:41em;}
+.header h1, p.choices-logo a {display:block;max-width:100%;}
+.header h1 img, p.choices-logo>img {display:block; float:left; margin:0 15px 0 0;max-width:100%;}
+.header h1 span, p.choices-logo span {display:block; float:left; margin-top:32px;max-width:100%;}
+.choices-logo {
+display: block;
+    max-width: 80%;
+    height: auto;}
 /* Header - search */
 .header .searchbar {display:inline; float:right; position:relative;}
 .header .searchbar fieldset {border:2px solid #0064b7; position:relative;}
