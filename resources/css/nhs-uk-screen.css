@@ -433,7 +433,7 @@ ul.tabs li input:hover {text-decoration:underline;}
 .comments-header h3.show:hover {cursor:pointer; text-decoration:underline;}
 
 /* Web Parts */
-.panel {padding:1em; position:relative; margin:0 0 1em 0; background:#f2f2f0;}
+/*.panel {padding:1em; position:relative; margin:0 0 1em 0; background:#f2f2f0;}*/
 .panel .pad-rl {padding:0;}
 .panel-top {padding:0 0 0 50px; margin:0;}
 .panel h2 {font-size:1.4em; color:#069; margin-bottom:.3em;}

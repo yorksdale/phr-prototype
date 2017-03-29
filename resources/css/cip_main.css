@@ -264,6 +264,14 @@ th {
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 /* -----Steve aditions -----*/
+#parent {
+	width:100%;
+	height:auto;
+}
+#child {
+	line-height:100px;
+	font-size:1.6rem
+}
 .column-main p{
 		font-size:1.5rem;
 	}
@@ -5320,7 +5328,7 @@ hr {
   display: block;
   /*padding: 2px;*/
   margin-bottom: 20px;
-  line-height: 1.5;
+  line-height: 1.5rem;
  /* background-color: #ffffff;
   border: 1px solid #ddd;*/
   border-radius: 0px;
@@ -5975,7 +5983,7 @@ button.list-group-item-danger.active:focus {
 .panel-group .panel {
   margin-bottom: 0;
   border-radius: 0px;
-	    width: 95%;
+	    width: 100%;
 }
 .panel-group .panel + .panel {
   margin-top: 5px;
