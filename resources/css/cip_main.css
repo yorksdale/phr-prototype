@@ -5773,7 +5773,7 @@ button.list-group-item-danger.active:focus {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 .panel-body {
-  padding: 15px;
+  padding: 1px;
 }
 .panel-heading {
   padding: 10px 15px;
@@ -7555,6 +7555,10 @@ div.login-pf-lg {
   font-size: 1rem;
   color: #005ea5;
   text-decoration: none;
+	position: relative;
+    color:#BABABA;
+    top: -81px;
+    left: 95%;
 }
 
 .panel-no-shadow {
@@ -7563,14 +7567,17 @@ div.login-pf-lg {
 }
 
 .accordion-toggle:before {
-  content: "\f068"; /* fa-minus */
+  content: "\f151"; /* fa-minus */
   font-family: 'FontAwesome';
+	font-size: 30px;
+	font-weight:100;
   position: absolute;
 	right: 0;
 }
 
 .accordion-toggle.collapsed:before {
-    content: "\f067"; /* fa-plus*/
+    content: "\f150"; /* fa-plus*/
+	
 }
 
 /* .panel-no-shadow {
