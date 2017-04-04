@@ -299,6 +299,9 @@ padding: 0;
 .container-fluid.choice.pad-l-r {
 	padding-left:0;
 	padding-right:0;
+	border:1px solid #BEBEBE;
+	padding:2%;
+	margin-bottom: 20px;
 }
 .col-xs-5.pad-l-r{
 	padding-left:8px;
