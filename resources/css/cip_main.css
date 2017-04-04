@@ -281,12 +281,20 @@ padding: 0;
     margin-left:20px;
 }
 .column-main ul li {
+	font-size:1.3rem;
+	font-weight:normal;
+	display: list-item;
+	list-style-type:disc;
+	line-height: 1.5rem;
+	padding-bottom:10px;
+}
+.column-main ul.choose li {
 	font-size:1.5rem;
 	font-weight:600;
 	display: list-item;
 	list-style-type:disc;
 	line-height: 2rem;
-	padding-bottom:20px;
+	padding-bottom:10px;
 }
 .container-fluid.choice.pad-l-r {
 	padding-left:0;
@@ -474,11 +482,11 @@ font-size:1.5em;
 	background-color: #009639;
 	
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     white-space: nowrap;
-    width: 100%;
-    padding: .8em 1.5em;
-    
+    width: 80%;
+    padding: 0.2em 1.0em;
+    margin:0 20px;
     line-height: 18px;
     display: inline-block;
     zoom: 1;
@@ -1477,11 +1485,18 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+
 hr {
   margin-top: 10px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee;
+}
+.choices hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 12px solid #0070c9;
 }
 .sr-only {
   position: absolute;
@@ -5337,7 +5352,7 @@ hr {
 .thumbnail {
   display: block;
   /*padding: 2px;*/
-  margin-bottom: 20px;
+  /*margin-bottom: 5px;*/
   line-height: 1.5rem;
  /* background-color: #ffffff;
   border: 1px solid #ddd;*/
@@ -7568,7 +7583,7 @@ div.login-pf-lg {
   color: #005ea5;
   text-decoration: none;
 	position: relative;
-    color:#BABABA;
+    color:#0070c9;
     top: -81px;
     left: 95%;
 }
@@ -7579,16 +7594,16 @@ div.login-pf-lg {
 }
 
 .accordion-toggle:before {
-  content: "\f151"; /* fa-minus */
+  content: "\f068"; /* fa-minus */
   font-family: 'FontAwesome';
-	font-size: 30px;
+	font-size: 25px;
 	font-weight:100;
   position: absolute;
 	right: 0;
 }
 
 .accordion-toggle.collapsed:before {
-    content: "\f150"; /* fa-plus*/
+    content: "\f067"; /* fa-plus*/
 	
 }
 
