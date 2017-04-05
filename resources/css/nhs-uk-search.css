@@ -278,7 +278,7 @@
 .fs-result.organisation ul.address li {background:none}
 
 /* new search design */
-.column-main {background:#fff; padding:3em 1em 1em 3em;}
+.column-main {background:#fff; padding:1em 1em 1em 3em;}
 .main-results {width:94.5em;}
 .main-results .four {border-right:1px solid #e7e7e7; width:74.2em;}
 .main-results .four .number-of-results {margin-bottom:2em;}

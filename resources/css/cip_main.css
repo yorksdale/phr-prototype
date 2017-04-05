@@ -273,7 +273,7 @@ th {
 	font-size:1.6rem
 }
 .column-main p{
-		font-size:1.5rem;
+		font-size: 1.263rem;
 	}
 .column-main ul {
 	list-style:outside;
@@ -500,15 +500,16 @@ font-size:1.5em;
 .btn.smlbtn.greenbtn {
 	border-color: #006747;
 	background-color: #009639;
-width: 100%;
+width: 80%;
+	
     padding: 0;
     color: white;
 	font-size: 1.4rem;
 	line-height: 25px;
     display: inline-block;
     zoom: 1;
-    margin-left: 10%;
-	    min-width: 50px;
+    margin-left: 44%;
+	margin-top: 5%;
     border-radius: 5px;
 	text-decoration: none
 }
@@ -4122,6 +4123,7 @@ tbody.collapse.in {
   border-top-left-radius: 0px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+	
 }
 .btn-group-vertical > .btn:last-child:not(:first-child) {
   border-top-right-radius: 0;
@@ -5355,7 +5357,7 @@ hr {
 .thumbnail {
   display: block;
   /*padding: 2px;*/
-  /*margin-bottom: 5px;*/
+  margin-top: 5%;
   line-height: 1.5rem;
  /* background-color: #ffffff;
   border: 1px solid #ddd;*/
@@ -5363,10 +5365,11 @@ hr {
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
+	
 }
 .thumbnail > img,
 .thumbnail a > img {
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
 }
 a.thumbnail:hover,
@@ -7587,7 +7590,7 @@ div.login-pf-lg {
   text-decoration: none;
 	position: relative;
     color:#0070c9;
-    top: -81px;
+    top: 0;
     left: 95%;
 }
 
