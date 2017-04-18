@@ -277,14 +277,14 @@ th {
 	}
 .column-main ul {
 	list-style:outside;
-padding: 0;
+	padding: 0;
     margin-left:20px;
 }
 .column-main ul li {
 	font-size:1.3rem;
 	font-weight:normal;
 	display: list-item;
-	list-style-type:disc;
+	list-style-type:none;
 	line-height: 1.5rem;
 	padding-bottom:10px;
 }
@@ -295,6 +295,18 @@ padding: 0;
 	list-style-type:disc;
 	line-height: 2rem;
 	padding-bottom:10px;
+}
+.column-main ul li.tick {
+	background: url('../images/tick.png') no-repeat left top ;
+	list-style:none;
+	margin:none;
+	padding-left: 30px;
+padding-top: 7px;
+}
+.column-main ul li.cross {
+	list-style-image: url('../images/cross.png');
+	padding-left: 10px;
+padding-top: 3px;
 }
 .container-fluid.choice.pad-l-r {
 	padding-left:0;
@@ -534,7 +546,7 @@ width: 80%;
     margin: 20px 0 0 -10px;
     color: #585858;
 	font-weight: normal;
-    background: none;
+    background: #E6E5E5;
     border-left: 8px solid #C5C5C5;
     max-width: 720px;
   
