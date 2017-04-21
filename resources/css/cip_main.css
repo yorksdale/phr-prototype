@@ -7624,6 +7624,19 @@ div.login-pf-lg {
     content: "\f067"; /* fa-plus*/
 	
 }
+.accordion-toggle1:before {
+  content: "\f151 "; /* fa-minus */
+  font-family: 'FontAwesome';
+	font-size: 25px;
+	font-weight:100;
+  position: absolute;
+	right: 0;
+}
+
+.accordion-toggle1.collapsed:before {
+    content: "\f150"; /* fa-plus*/
+	
+}
 
 /* .panel-no-shadow {
   -webkit-box-shadow: none;
